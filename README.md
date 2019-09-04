@@ -9,4 +9,4 @@ A linguagem é de sua preferência e o projeto deve possuir um README com as ins
 
 <strong> Dica: você pode utilizar a API Marvel para ajudar na tarefa </strong>
 
-<a href="https://developer.marvel.com/docs#"> DOCUMENTAÇÃO API - MARVEL </a>
+<a href="https://developer.marvel.com/docs#" target="_blank"> DOCUMENTAÇÃO API - MARVEL </a>
