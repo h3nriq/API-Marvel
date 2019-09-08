@@ -32,7 +32,7 @@ A linguagem é de sua preferência e o projeto deve possuir um README com as ins
   <li>Doctor Strange </li>
 </ul>
 
-<h2>Construção: <h2>
+<h2>Construção: </h2>
 <p>Nessa aplicação eu optei por usar o endpoint que me retornasse as histórias dos herois e limitei na própria url para que me retornasse somente 5 por solicitação.</p>
 <p>Como a API obriga a chamada da hash ser um MD5 utilizei um compilador diretamente no código, que é chamado para o arquivo configHero.js e lá converte os parametros que a API solicita.</p>
 <br><br>
