@@ -9,11 +9,13 @@
 }
 
 body {
-    background-image: url("../marvelBackground.gif");
+    background-image: url("../images/background01.jpg");
+    background-repeat: no-repeat;
 }
 
 h1 {
     margin:auto;
     max-width: 950px;
     color: blanchedalmond;
+    text-align: center;
 }

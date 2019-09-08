@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Personagens Marvel</title>
+  </head>
+  
+  <body class="center">
+   
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Personagens:</a>
+    </nav>
+      
+    <div class="row">
+     
+        <!--Thor -->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top img-thumbnail" src="images/Thor.png" alt="Card image cap" >
+          <div class="card-body">
+            <h5 class="card-title"> Thor</h5>
+            <button type="button" onclick="showHistoryThor(this)"><span id="historyThor">Histórias</span></button>
+          </div>
+        </div>
+      
+        <!-- Spider-Man -->
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top img-thumbnail" src="images/spiderman.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"> Spider Man</h5>
+            <button type="button" onclick="showHistorySpider(this)"><span id="historySpider">Histórias</span></button>
+          </div>
+        </div>
+
+        <!--Doctor Strange -->
+        <div class="card" style="width: 18rem;" >
+          <img class="card-img-top img-thumbnail" src="images/doctorStrange.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"> Doctor Strange </h5>
+            <button type="button" onclick="showHistoryDoctor(this)"><span id="historyDoctor">Histórias</span></button>
+          </div>
+        </div>
+    </div>
+
+    <script src="js/md5.min.js"></script>
+    <script src="js/configHero.js"></script>
+    <script src="js/getDados.js"> </script>
+  </body>
+</html>
