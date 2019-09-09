@@ -37,5 +37,8 @@ A linguagem é de sua preferência e o projeto deve possuir um README com as ins
 <p>Como a API obriga a chamada da hash ser um MD5 utilizei um compilador diretamente no código, que é chamado para o arquivo configHero.js e lá converte os parametros que a API solicita.</p>
 <br><br>
 
-<h1>Teste a aplicação online: </h1>
-<a href="http://marvel.rohamann.kinghost.net">TESTE AQUI</a>
+<h1>Testar a aplicação: </h1>
+<ul>
+  <li>Baixe o repositório ou clone </li>
+  <li>Teste online: <a href="http://marvel.rohamann.kinghost.net">TESTE AQUI</a></li>
+</ul>
